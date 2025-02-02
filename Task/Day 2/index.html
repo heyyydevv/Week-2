@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Devraj Singh</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#home" class="nav__logo">Devraj Singh</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+                <i class="fas fa-times nav__close" id="nav-close"></i>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section class="home section" id="home">
+        <div class="home__container container">
+            <h1 class="home__title">Hi, I'm <span class="home__title-color">Devraj Singh</span></h1>
+            <p class="home__description">A passionate Web Developer dedicated to creating modern and user-friendly websites.</p>
+            <a href="#contact" class="button">Contact Me</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <h2 class="section__title">About Me</h2>
+        <div class="about__container container grid">
+            <div class="about__img">
+                <img src="about.jpg" alt="About Me">
+            </div>
+            <div class="about__data">
+                <h3 class="about__subtitle">Who Am I?</h3>
+                <p class="about__text">I am a 3rd-year BTech student with a strong passion for web development and a knack for designing interactive user experiences. I love turning ideas into reality using code.</p>
+                <a href="#projects" class="button">View Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills section" id="skills">
+        <h2 class="section__title">My Skills</h2>
+        <div class="skills__container container grid">
+            <div class="skills__data">
+                <h3 class="skills__name">HTML</h3>
+                <div class="skills__bar skills__html"></div>
+            </div>
+            <div class="skills__data">
+                <h3 class="skills__name">CSS</h3>
+                <div class="skills__bar skills__css"></div>
+            </div>
+            <div class="skills__data">
+                <h3 class="skills__name">JavaScript</h3>
+                <div class="skills__bar skills__js"></div>
+            </div>
+            <div class="skills__data">
+                <h3 class="skills__name">React</h3>
+                <div class="skills__bar skills__react"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects section" id="projects">
+        <h2 class="section__title">My Projects</h2>
+        <div class="projects__container container grid">
+            <div class="projects__card">
+                <img src="project1.jpg" alt="Project 1" class="projects__img">
+                <h3 class="projects__title">Project One</h3>
+                <p class="projects__description">An interactive web app built with React and Firebase.</p>
+                <a href="#" class="button button--small">View Project</a>
+            </div>
+            <div class="projects__card">
+                <img src="project2.jpg" alt="Project 2" class="projects__img">
+                <h3 class="projects__title">Project Two</h3>
+                <p class="projects__description">A dynamic portfolio website showcasing advanced animations.</p>
+                <a href="#" class="button button--small">View Project</a>
+            </div>
+            <div class="projects__card">
+                <img src="project3.jpg" alt="Project 3" class="projects__img">
+                <h3 class="projects__title">Project Three</h3>
+                <p class="projects__description">A task management tool with collaborative features.</p>
+                <a href="#" class="button button--small">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact section" id="contact">
+        <h2 class="section__title">Contact Me</h2>
+        <div class="contact__container container grid">
+            <div class="contact__info">
+                <h3 class="contact__subtitle">Get in Touch</h3>
+                <p class="contact__text">Feel free to reach out to me for collaborations or just a friendly chat.</p>
+                <div class="contact__details">
+                    <p><i class="fas fa-envelope"></i> your.email@example.com</p>
+                    <p><i class="fas fa-phone"></i> +123 456 7890</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Your City, Country</p>
+                </div>
+            </div>
+            <form action="#" class="contact__form">
+                <div class="form__group">
+                    <input type="text" class="form__input" placeholder="Your Name" required>
+                </div>
+                <div class="form__group">
+                    <input type="email" class="form__input" placeholder="Your Email" required>
+                </div>
+                <div class="form__group">
+                    <textarea class="form__input" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__container container">
+            <p class="footer__text">&copy; 2025 Devraj Singh. All rights reserved.</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class="fab fa-github"></i></a>
+                <a href="#" class="footer__icon"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="footer__icon"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
